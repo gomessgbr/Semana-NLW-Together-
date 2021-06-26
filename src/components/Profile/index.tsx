@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import { styles } from './styles';
-import { Avatar }  from '../Avatar'
+import { Avatar }  from '../Avatar';
 export function Profile (){
     return(
         <View style={styles.container}>
@@ -10,8 +10,9 @@ export function Profile (){
             <View >
                 <View style={styles.user}>
                     <Text style={styles.greeting}>
-                        Olá
+                        Olá,
                     </Text>
+
                     <Text style={styles.username}>
                         Gabriel
                     </Text>
@@ -20,9 +21,7 @@ export function Profile (){
                     Hoje é dia de vitória
                 </Text>
             </View>
-            
-
-            
+                        
         </View>
     )
 }

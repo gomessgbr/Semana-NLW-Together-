@@ -9,7 +9,7 @@ import { theme } from '../../global/styles/theme';
 
 export function ButtonAdd({...rest}: RectButtonProps){
     return(        
-            <RectButton 
+            <RectButton {...rest} 
             style={styles.container}
 
             >
